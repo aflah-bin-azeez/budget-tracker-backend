@@ -59,7 +59,6 @@ export const addExpense = async (req, res) => {
 };
 
 
-
 export const getExpenses = async (req, res) => {
   const { month } = req.query; // "2025-01"
 
